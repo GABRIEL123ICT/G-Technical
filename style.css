@@ -19,7 +19,7 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     background-color: var(--white);
-    overflow-x: hidden; /* Prevents awkward horizontal shaking on mobile */
+    overflow-x: hidden; /* Prevents horizontal layout breaking or shaking on phones */
 }
 
 .container {
@@ -428,7 +428,7 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.05);
 }
 
-/* SMART PHONES & TABLETS RESPONSIVE STYLES */
+/* SMART PHONES & TABLETS RESPONSIVE MEDIA QUERIES */
 @media (max-width: 768px) {
     .hero h1 { 
         font-size: 2rem; 
